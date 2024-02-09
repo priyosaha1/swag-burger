@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    height: auto;
+   background: repeating-linear-gradient(
+      90deg,
+      rgb(250, 250, 250),
+      rgba(219, 219, 46, 0.152) 10px,
+      transparent 100px,
+      transparent 100px
+    ); 
+    
+    left: 0;
+    font-family: cursive;
+  }
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+#nav::before{
+    content: '';
+    position: absolute;
+    /* width: 40%;
+    height: 100%; */
+    right: 0;
+    background: linear-gradient(rgb(244, 1, 1));
+    border-radius: 5100px ;
+}
+
+
+#logo{
+ display: flex;
+ align-items: center;
+}
+.logopic{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px; 
+}
+#search{
+    /* height:50%;
+    width: 50%;*/
+    display:flex; 
+
+
+}
+.logoh{
+    font-size: 1.5em;
+}
+.searchbox{
+    padding: 5px;
+}
+.btn{
+    border: 1px solid black;
+background-color: rgb(0, 240, 56);
+color: white;
+padding: 5px 10px;
+}
+.bi{
+    top: 30px;
+    height: 80px;
+    width: 20px;
+}
+#profile{
+    cursor: pointer;
+}
+#front{
+text-align: center;
+padding: 20px;
+}
+#lover{
+    height: 30px;
+}
+.loverp{
+    margin: 20px;
+    height: 200px;
+    padding-top: 116px;
+}
+#front{
+    justify-content: center;
+}
+/* .inside{
+   text-align: center;
+   justify-content: center;
+   display: flex; */
+
+.insidepic{
+   max-width: 100%;
+   height: auto;
+
+}
+.insider{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #540e0e;
+    padding: 20px;
+}
+#mide {
+    clear: both; 
+}
+#mid{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+ 
+
+}
+
+
+#bur {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.bur {
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    width: 250px; 
+}
+
+.bur img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h5 {
+    font-size: 18px;  
+    margin-top: 10px;  
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.discount-sticker {
+    position: relative;
+    top: -10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#dr {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Drinks {
+    text-align: center;
+    margin: 10px;
+    width: 250px;  
+}
+
+.Drinks img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}
+
+h5 {
+    font-size: 18px;  
+    margin-top: 10px; 
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
+.original-price {
+    text-decoration: line-through; 
+    margin-right: 5px;
+    color: #ff0101;
+   font-size: small;
+}
+.discounted-price{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.discount-sticker {
+    position: relative;
+    top: -10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 5px 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.poster {
+    background-color: #1c1a1a;  
+    color: #fff; 
+    text-align: center;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+.poster-heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    z-index: 1; 
+    text-shadow: 0 0 2px #ff0000;
+   
+}
+.poster-head {
+   position: absolute;
+   
+    margin-top: 144px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.sprite{
+    height: 245px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.addToCartButton {
+    background-color: #4caf50; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    margin-top: 10px; 
+    font-size: 16px;
+}
+
+.addToCartButton:hover {
+    background-color: #45a049; 
+}
+.Cart{
+    background-color: #000000;
+    transition: background-color 0.3s;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+}
+.Cart:active {
+    
+    background-color: #919a7f;
+    color: #322121; 
+}
+.store{
+    height: 40px;
+    width: 43px;
+    background-color: #dddede;
+    border-radius: 50px;
+}
+.total {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.total h1 {
+    font-size: 24px;  
+}
+
+.total h2 {
+    font-size: 20px;  
+}
+
+#bottom-container {
+    text-align: center; 
+    margin-top: 20px;  
+}
+
+.bottom-sec {
+    display: block;  
+    margin: 0 auto; 
+    text-align: center;  
+}
+#rzp-button1{
+    background-color: #ff0000;
+    transition: background-color 0.3s;
+    color: #000000;
+    cursor: pointer;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+}
+#rzp-button1:active {
+    
+    background-color: #919a7f;
+    color: #322121; 
+}

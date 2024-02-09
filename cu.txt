@@ -1,0 +1,274 @@
+<body>
+    <div id="nav">
+        <div id="logo">
+            <img class="logopic" src="burger_url.webp">
+            <h4 class="logoh"> SWAG BURGER </h4>
+        </div>
+        <div id="search">
+            <input class="searchbox" type="text" placeholder="search for burgers">
+            <button class="btn" type="button">search</button>
+        </div>
+        <div id="gg">
+            <button class="store">Cart</button>
+        </div>
+        
+        <div id="profile">
+           
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z"/>
+              </svg>
+
+        </div>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <div id="front" >
+       
+        <div class="inside">
+            <img class="insidepic" src="food main.png" alt="main pic">
+            
+        </div>
+
+    </div>
+    <h3 class="insider">The best burgers are like life — messy and topped with bacon.</h3>
+    <div id="mid">
+        <h1> Our Cuisines</h1>
+    </div>
+    <div id="bur">
+       
+        <div class="bur">
+            <div class="discount-sticker">50% OFF</div>
+            <img  class="burger1" src="Burger-1.png" alt="" srcset="">
+        <h5>chessse burger</h5>
+        <p>
+            <span class="original-price">Rs-300</span>
+            <span class="discounted-price">Rs-150/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="bur">
+            <div class="discount-sticker">10% OFF</div>
+            <img class="burger2"  src="Burger-2.png" alt="" srcset="">
+        <h5>chicken burger</h5>
+        <p>
+            <span class="original-price">Rs-400</span>
+            <span class="discounted-price">Rs-369/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="bur">
+            <div class="discount-sticker">70% OFF</div>
+            <img  class="burger3" src="Burger-3.png" alt="" srcset="">
+        <h5> veg burger</h5>
+        <p>
+            <span class="original-price">Rs-300</span>
+            <span class="discounted-price">Rs-129/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="bur">
+            <div class="discount-sticker">60% OFF</div>
+            <img  class="burger4" src="Burger-4.png" alt="" srcset="">
+        <h5> rost burger</h5>
+        <p>
+            <span class="original-price">Rs-200</span>
+            <span class="discounted-price">Rs-99/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+     
+    </div>
+
+
+
+
+    
+    <div id="bur">
+       
+        <div class="bur">
+            <div class="discount-sticker">50% OFF</div>
+            <img  class="burger1" src="Burger-6.png" alt="" srcset="">
+        <h5>special burger</h5>
+        <p>
+            <span class="original-price">Rs-300</span>
+            <span class="discounted-price">Rs-150/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="bur">
+            <div class="discount-sticker">10% OFF</div>
+            <img class="burger2"  src="Burger-7.png" alt="" srcset="">
+        <h5>foody burger</h5>
+        <p>
+            <span class="original-price">Rs-400</span>
+            <span class="discounted-price">Rs-369/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="bur">
+            <div class="discount-sticker">70% OFF</div>
+            <img  class="burger3" src="Burger-5.png" alt="" srcset="">
+        <h5>Tic tac burger</h5>
+        <p>
+            <span class="original-price">Rs-300</span>
+            <span class="discounted-price">Rs-129/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="bur">
+            <div class="discount-sticker">60% OFF</div>
+            <img  class="burger4" src="burger8.png" alt="" srcset="">
+        <h5> Boom burger</h5>
+        <p>
+            <span class="original-price">Rs-200</span>
+            <span class="discounted-price">Rs-99/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+    
+     
+        <div class="poster">
+            <div class="img">
+                <h2 class="poster-heading">Discover Our Specials</h2>
+                <h3 class="poster-head"> our drinks </h3>
+                <img src="Food_big_2.png" alt="Specials Poster" style="height: 370px; width: 942px;">
+            </div>
+        </div>
+        
+<br>
+
+
+
+
+    <div id="dr">
+       
+        <div class="Drinks">
+            <div class="discount-sticker">50% OFF</div>
+            <img  class="1" src="/Drinks/1.png" alt="" srcset="">
+        <h5>Coca cola Coke</h5>
+        <p>
+            <span class="original-price">Rs-300</span>
+            <span class="discounted-price">Rs-150/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="Drinks">
+            <div class="discount-sticker">10% OFF</div>
+            <img class="2"  src="/Drinks/2.png" alt="" srcset="">
+        <h5>Masala soda</h5>
+        <p>
+            <span class="original-price">Rs-400</span>
+            <span class="discounted-price">Rs-369/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="Drinks">
+            <div class="discount-sticker">70% OFF</div>
+            <img  class="3" src="/Drinks/3.png" alt="" srcset="">
+        <h5>Blue beary shake</h5>
+        <p>
+            <span class="original-price">Rs-300</span>
+            <span class="discounted-price">Rs-129/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="Drinks">
+            <div class="discount-sticker">60% OFF</div>
+            <img  class="4" src="/Drinks/4.png" alt="" srcset="">
+        <h5> oreao shake</h5>
+        <p>
+            <span class="original-price">Rs-200</span>
+            <span class="discounted-price">Rs-99/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+     
+    </div>
+
+
+
+
+
+
+
+    <div id="dr">
+       
+        <div class="Drinks">
+            <div class="discount-sticker">50% OFF</div>
+            <img  class="sprite" src="/Drinks/5.png" alt="" srcset="">
+        <h5>sprite</h5>
+        <p>
+            <span class="original-price">Rs-300</span>
+            <span class="discounted-price">Rs-150/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="Drinks">
+            <div class="discount-sticker">10% OFF</div>
+            <img class="6"  src="/Drinks/6.png" alt="" srcset="">
+        <h5>Lemon water </h5>
+        <p>
+            <span class="original-price">Rs-400</span>
+            <span class="discounted-price">Rs-369/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="Drinks">
+            <div class="discount-sticker">70% OFF</div>
+            <img  class="7" src="/Drinks/7.png" alt="" srcset="">
+        <h5>coffee</h5>
+        <p>
+            <span class="original-price">Rs-300</span>
+            <span class="discounted-price">Rs-129/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+        <div class="Drinks">
+            <div class="discount-sticker">60% OFF</div>
+            <img  class="8" src="/Drinks/8.png" alt="" srcset="">
+        <h5> mango shake</h5>
+        <p>
+            <span class="original-price">Rs-200</span>
+            <span class="discounted-price">Rs-99/only</span>
+          </p>
+          <button class="Cart">Add to Cart</button>
+        </div>
+     
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="bottom-sec">
+        <div id="deliver">
+            <div class="total">
+                <h1>Selected Burgers</h1>
+                <h2 id="sum">Total Price:</h2>
+            </div> 
+            <br>
